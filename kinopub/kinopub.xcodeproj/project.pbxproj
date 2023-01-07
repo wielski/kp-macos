@@ -1,0 +1,1069 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50A7C4629664ABB0027CF5F /* AsItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A7C4529664ABB0027CF5F /* AsItemInfo.swift */; };
+		B52B01B72952B7E9007048A5 /* kinopubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B01B62952B7E9007048A5 /* kinopubApp.swift */; };
+		B52B01B92952B7E9007048A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B01B82952B7E9007048A5 /* ContentView.swift */; };
+		B52B01BB2952B7EA007048A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52B01BA2952B7EA007048A5 /* Assets.xcassets */; };
+		B52B01BE2952B7EA007048A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52B01BD2952B7EA007048A5 /* Preview Assets.xcassets */; };
+		B52B01C32952B7EA007048A5 /* kinopub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B52B01C12952B7EA007048A5 /* kinopub.xcdatamodeld */; };
+		B52B01CE2952B7EA007048A5 /* kinopubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B01CD2952B7EA007048A5 /* kinopubTests.swift */; };
+		B52B01D82952B7EA007048A5 /* kinopubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B01D72952B7EA007048A5 /* kinopubUITests.swift */; };
+		B52B01DA2952B7EA007048A5 /* kinopubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52B01D92952B7EA007048A5 /* kinopubUITestsLaunchTests.swift */; };
+		B54058C02967725900606F8B /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54058BF2967725900606F8B /* PlayerViewModel.swift */; };
+		B54058C229677DDE00606F8B /* PlayerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54058C129677DDE00606F8B /* PlayerScreen.swift */; };
+		B580655629670A2400493F10 /* SwipeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B580655529670A2400493F10 /* SwipeBack.swift */; };
+		B580655929670E7400493F10 /* SwiftUIRouter in Frameworks */ = {isa = PBXBuildFile; productRef = B580655829670E7400493F10 /* SwiftUIRouter */; };
+		B580655B2967150500493F10 /* ErrorRetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B580655A2967150500493F10 /* ErrorRetry.swift */; };
+		B580655D296721CF00493F10 /* SidebarAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B580655C296721CF00493F10 /* SidebarAccessor.swift */; };
+		B580655F29674C5500493F10 /* FlexibleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B580655E29674C5500493F10 /* FlexibleRow.swift */; };
+		B580656129674CB400493F10 /* ViewReadSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B580656029674CB400493F10 /* ViewReadSize.swift */; };
+		B5898DA1296473C600D85278 /* WideItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5898DA0296473C600D85278 /* WideItemView.swift */; };
+		B5898DA4296481F300D85278 /* AverageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5898DA3296481F300D85278 /* AverageColor.swift */; };
+		B5898DA72964862500D85278 /* Shiny in Frameworks */ = {isa = PBXBuildFile; productRef = B5898DA62964862500D85278 /* Shiny */; };
+		B5898DA929649E8900D85278 /* FreshViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5898DA829649E8900D85278 /* FreshViewModel.swift */; };
+		B5898DAB29649EC800D85278 /* HotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5898DAA29649EC800D85278 /* HotViewModel.swift */; };
+		B5898DAD2964A02A00D85278 /* MoviesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5898DAC2964A02A00D85278 /* MoviesProtocols.swift */; };
+		B5898DB02964A18D00D85278 /* WhatToWatchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5898DAF2964A18D00D85278 /* WhatToWatchScreen.swift */; };
+		B58A9C53296072F60086863C /* DeviceCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C52296072F60086863C /* DeviceCodeView.swift */; };
+		B58A9C5929607E6C0086863C /* DeviceCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C5829607E6C0086863C /* DeviceCodeViewModel.swift */; };
+		B58A9C5C29609CBF0086863C /* AuthenticationKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C5B29609CBF0086863C /* AuthenticationKeeper.swift */; };
+		B58A9C672960B8FF0086863C /* KinopubApi in Frameworks */ = {isa = PBXBuildFile; productRef = B58A9C662960B8FF0086863C /* KinopubApi */; };
+		B58A9C692960B9020086863C /* KinopubAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B58A9C682960B9020086863C /* KinopubAuth */; };
+		B58A9C6C2961B3380086863C /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C6B2961B3380086863C /* Spinner.swift */; };
+		B58A9C702961CB3F0086863C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C6F2961CB3F0086863C /* UserViewModel.swift */; };
+		B58A9C722962F9C80086863C /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C712962F9C80086863C /* Consts.swift */; };
+		B58A9C7429632E340086863C /* AccessTokenRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C7329632E340086863C /* AccessTokenRequestBuilder.swift */; };
+		B58A9C78296356080086863C /* PopularViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C77296356080086863C /* PopularViewModel.swift */; };
+		B58A9C7B296358390086863C /* WhatToWatchViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C7A296358390086863C /* WhatToWatchViews.swift */; };
+		B58A9C7D29635CAA0086863C /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C7C29635CAA0086863C /* ItemView.swift */; };
+		B58A9C7F29635E2B0086863C /* RemoteImageURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C7E29635E2B0086863C /* RemoteImageURL.swift */; };
+		B58A9C8229635F120086863C /* ItemsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C8129635F120086863C /* ItemsMock.swift */; };
+		B58A9C842963665B0086863C /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C832963665B0086863C /* UserAuth.swift */; };
+		B58A9C8829644B000086863C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C8729644B000086863C /* MainView.swift */; };
+		B58A9C8C29644BAB0086863C /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58A9C8B29644BAB0086863C /* SidebarView.swift */; };
+		B5A6F0FF2969BB4100C03612 /* VoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A6F0FE2969BB4100C03612 /* VoteViewModel.swift */; };
+		B5AD113F2968641000315E35 /* AVPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD113E2968641000315E35 /* AVPlayerViewModel.swift */; };
+		B5AD11422968653900315E35 /* AVVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD11412968653900315E35 /* AVVideoPlayer.swift */; };
+		B5AD11442968818A00315E35 /* ErrorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD11432968818A00315E35 /* ErrorScreen.swift */; };
+		B5D9A5852964C2D6009590E8 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9A5842964C2D6009590E8 /* Debouncer.swift */; };
+		B5D9A5872964C72D009590E8 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9A5862964C72D009590E8 /* Button.swift */; };
+		B5D9A58B2964E536009590E8 /* FullItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9A58A2964E536009590E8 /* FullItemView.swift */; };
+		B5D9A5932964E9EA009590E8 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = B5D9A5922964E9EA009590E8 /* Nuke */; };
+		B5D9A5952964E9EA009590E8 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = B5D9A5942964E9EA009590E8 /* NukeExtensions */; };
+		B5D9A5972964E9EA009590E8 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = B5D9A5962964E9EA009590E8 /* NukeUI */; };
+		B5D9A59929650D3B009590E8 /* LongText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9A59829650D3B009590E8 /* LongText.swift */; };
+		B5D9A59B2965BDED009590E8 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9A59A2965BDED009590E8 /* Debug.swift */; };
+		B5D9A59D2965C617009590E8 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9A59C2965C617009590E8 /* Router.swift */; };
+		B5D9A59F2965C6DD009590E8 /* ItemDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9A59E2965C6DD009590E8 /* ItemDetailsScreen.swift */; };
+		B5D9A5A12965C769009590E8 /* ItemDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9A5A02965C769009590E8 /* ItemDetailsViewModel.swift */; };
+		B5E4607C2968CCD400BB42CA /* ItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4607B2968CCD400BB42CA /* ItemInfo.swift */; };
+		B5E460802968F8E700BB42CA /* VideoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4607F2968F8E700BB42CA /* VideoList.swift */; };
+		B5E460822968FE4E00BB42CA /* AsAnyVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E460812968FE4E00BB42CA /* AsAnyVideo.swift */; };
+		B5E460862969AEA500BB42CA /* BookmarksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E460852969AEA500BB42CA /* BookmarksViewModel.swift */; };
+		B5E460882969AEB200BB42CA /* BookmarksProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E460872969AEB200BB42CA /* BookmarksProtocols.swift */; };
+		B5E4608B2969AF4A00BB42CA /* BookmarksSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4608A2969AF4A00BB42CA /* BookmarksSidebarView.swift */; };
+		B5E4608D2969B0EA00BB42CA /* ColorByString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E4608C2969B0EA00BB42CA /* ColorByString.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B52B01CA2952B7EA007048A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B52B01AB2952B7E9007048A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B52B01B22952B7E9007048A5;
+			remoteInfo = kinopub;
+		};
+		B52B01D42952B7EA007048A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B52B01AB2952B7E9007048A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B52B01B22952B7E9007048A5;
+			remoteInfo = kinopub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B50A7C4529664ABB0027CF5F /* AsItemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsItemInfo.swift; sourceTree = "<group>"; };
+		B52B01B32952B7E9007048A5 /* kinopub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kinopub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52B01B62952B7E9007048A5 /* kinopubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kinopubApp.swift; sourceTree = "<group>"; };
+		B52B01B82952B7E9007048A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B52B01BA2952B7EA007048A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B52B01BD2952B7EA007048A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B52B01C22952B7EA007048A5 /* kinopub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kinopub.xcdatamodel; sourceTree = "<group>"; };
+		B52B01C42952B7EA007048A5 /* kinopub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kinopub.entitlements; sourceTree = "<group>"; };
+		B52B01C92952B7EA007048A5 /* kinopubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kinopubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52B01CD2952B7EA007048A5 /* kinopubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kinopubTests.swift; sourceTree = "<group>"; };
+		B52B01D32952B7EA007048A5 /* kinopubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kinopubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52B01D72952B7EA007048A5 /* kinopubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kinopubUITests.swift; sourceTree = "<group>"; };
+		B52B01D92952B7EA007048A5 /* kinopubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kinopubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B54058BF2967725900606F8B /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		B54058C129677DDE00606F8B /* PlayerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScreen.swift; sourceTree = "<group>"; };
+		B580655529670A2400493F10 /* SwipeBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeBack.swift; sourceTree = "<group>"; };
+		B580655A2967150500493F10 /* ErrorRetry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorRetry.swift; sourceTree = "<group>"; };
+		B580655C296721CF00493F10 /* SidebarAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarAccessor.swift; sourceTree = "<group>"; };
+		B580655E29674C5500493F10 /* FlexibleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleRow.swift; sourceTree = "<group>"; };
+		B580656029674CB400493F10 /* ViewReadSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewReadSize.swift; sourceTree = "<group>"; };
+		B5898DA0296473C600D85278 /* WideItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WideItemView.swift; sourceTree = "<group>"; };
+		B5898DA3296481F300D85278 /* AverageColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageColor.swift; sourceTree = "<group>"; };
+		B5898DA829649E8900D85278 /* FreshViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshViewModel.swift; sourceTree = "<group>"; };
+		B5898DAA29649EC800D85278 /* HotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotViewModel.swift; sourceTree = "<group>"; };
+		B5898DAC2964A02A00D85278 /* MoviesProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesProtocols.swift; sourceTree = "<group>"; };
+		B5898DAF2964A18D00D85278 /* WhatToWatchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToWatchScreen.swift; sourceTree = "<group>"; };
+		B58A9C52296072F60086863C /* DeviceCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCodeView.swift; sourceTree = "<group>"; };
+		B58A9C5829607E6C0086863C /* DeviceCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCodeViewModel.swift; sourceTree = "<group>"; };
+		B58A9C5B29609CBF0086863C /* AuthenticationKeeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationKeeper.swift; sourceTree = "<group>"; };
+		B58A9C642960B8E60086863C /* KinopubApi */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = KinopubApi; path = ../KinopubApi; sourceTree = "<group>"; };
+		B58A9C652960B8F50086863C /* KinopubAuth */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = KinopubAuth; path = ../KinopubAuth; sourceTree = "<group>"; };
+		B58A9C6B2961B3380086863C /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		B58A9C6F2961CB3F0086863C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		B58A9C712962F9C80086863C /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		B58A9C7329632E340086863C /* AccessTokenRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenRequestBuilder.swift; sourceTree = "<group>"; };
+		B58A9C77296356080086863C /* PopularViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewModel.swift; sourceTree = "<group>"; };
+		B58A9C7A296358390086863C /* WhatToWatchViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToWatchViews.swift; sourceTree = "<group>"; };
+		B58A9C7C29635CAA0086863C /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		B58A9C7E29635E2B0086863C /* RemoteImageURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageURL.swift; sourceTree = "<group>"; };
+		B58A9C8129635F120086863C /* ItemsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsMock.swift; sourceTree = "<group>"; };
+		B58A9C832963665B0086863C /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
+		B58A9C8729644B000086863C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B58A9C8B29644BAB0086863C /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		B5A6F0FE2969BB4100C03612 /* VoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteViewModel.swift; sourceTree = "<group>"; };
+		B5AD113E2968641000315E35 /* AVPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerViewModel.swift; sourceTree = "<group>"; };
+		B5AD11412968653900315E35 /* AVVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVVideoPlayer.swift; sourceTree = "<group>"; };
+		B5AD11432968818A00315E35 /* ErrorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorScreen.swift; sourceTree = "<group>"; };
+		B5D9A5842964C2D6009590E8 /* Debouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
+		B5D9A5862964C72D009590E8 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		B5D9A58A2964E536009590E8 /* FullItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullItemView.swift; sourceTree = "<group>"; };
+		B5D9A59829650D3B009590E8 /* LongText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongText.swift; sourceTree = "<group>"; };
+		B5D9A59A2965BDED009590E8 /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		B5D9A59C2965C617009590E8 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B5D9A59E2965C6DD009590E8 /* ItemDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsScreen.swift; sourceTree = "<group>"; };
+		B5D9A5A02965C769009590E8 /* ItemDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewModel.swift; sourceTree = "<group>"; };
+		B5E4607B2968CCD400BB42CA /* ItemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfo.swift; sourceTree = "<group>"; };
+		B5E4607F2968F8E700BB42CA /* VideoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoList.swift; sourceTree = "<group>"; };
+		B5E460812968FE4E00BB42CA /* AsAnyVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsAnyVideo.swift; sourceTree = "<group>"; };
+		B5E460852969AEA500BB42CA /* BookmarksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewModel.swift; sourceTree = "<group>"; };
+		B5E460872969AEB200BB42CA /* BookmarksProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksProtocols.swift; sourceTree = "<group>"; };
+		B5E4608A2969AF4A00BB42CA /* BookmarksSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksSidebarView.swift; sourceTree = "<group>"; };
+		B5E4608C2969B0EA00BB42CA /* ColorByString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorByString.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B52B01B02952B7E9007048A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5898DA72964862500D85278 /* Shiny in Frameworks */,
+				B580655929670E7400493F10 /* SwiftUIRouter in Frameworks */,
+				B58A9C672960B8FF0086863C /* KinopubApi in Frameworks */,
+				B58A9C692960B9020086863C /* KinopubAuth in Frameworks */,
+				B5D9A5972964E9EA009590E8 /* NukeUI in Frameworks */,
+				B5D9A5932964E9EA009590E8 /* Nuke in Frameworks */,
+				B5D9A5952964E9EA009590E8 /* NukeExtensions in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52B01C62952B7EA007048A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52B01D02952B7EA007048A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B52B01AA2952B7E9007048A5 = {
+			isa = PBXGroup;
+			children = (
+				B58A9C4E296069100086863C /* Packages */,
+				B52B01B52952B7E9007048A5 /* kinopub */,
+				B52B01CC2952B7EA007048A5 /* kinopubTests */,
+				B52B01D62952B7EA007048A5 /* kinopubUITests */,
+				B52B01B42952B7E9007048A5 /* Products */,
+				B58A9C602960B6760086863C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B52B01B42952B7E9007048A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B52B01B32952B7E9007048A5 /* kinopub.app */,
+				B52B01C92952B7EA007048A5 /* kinopubTests.xctest */,
+				B52B01D32952B7EA007048A5 /* kinopubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B52B01B52952B7E9007048A5 /* kinopub */ = {
+			isa = PBXGroup;
+			children = (
+				B5898DA2296481E900D85278 /* Extensions */,
+				B58A9C6A2961B32B0086863C /* Components */,
+				B58A9C5A29609CAF0086863C /* Services */,
+				B5887BE0295FCCF50000A867 /* Features */,
+				B5898DAE2964A16F00D85278 /* Screens */,
+				B52B01B62952B7E9007048A5 /* kinopubApp.swift */,
+				B52B01B82952B7E9007048A5 /* ContentView.swift */,
+				B58A9C8729644B000086863C /* MainView.swift */,
+				B5D9A59C2965C617009590E8 /* Router.swift */,
+				B52B01BA2952B7EA007048A5 /* Assets.xcassets */,
+				B52B01C42952B7EA007048A5 /* kinopub.entitlements */,
+				B52B01C12952B7EA007048A5 /* kinopub.xcdatamodeld */,
+				B52B01BC2952B7EA007048A5 /* Preview Content */,
+				B58A9C712962F9C80086863C /* Consts.swift */,
+			);
+			path = kinopub;
+			sourceTree = "<group>";
+		};
+		B52B01BC2952B7EA007048A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B52B01BD2952B7EA007048A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B52B01CC2952B7EA007048A5 /* kinopubTests */ = {
+			isa = PBXGroup;
+			children = (
+				B52B01CD2952B7EA007048A5 /* kinopubTests.swift */,
+			);
+			path = kinopubTests;
+			sourceTree = "<group>";
+		};
+		B52B01D62952B7EA007048A5 /* kinopubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B52B01D72952B7EA007048A5 /* kinopubUITests.swift */,
+				B52B01D92952B7EA007048A5 /* kinopubUITestsLaunchTests.swift */,
+			);
+			path = kinopubUITests;
+			sourceTree = "<group>";
+		};
+		B5887BE0295FCCF50000A867 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C8929644B990086863C /* Layout */,
+				B5887BE1295FCD190000A867 /* Auth */,
+				B5AD113C296863BD00315E35 /* Player */,
+				B58A9C75296355880086863C /* Movies */,
+				B5E460832969A9E600BB42CA /* Bookmarks */,
+				B58A9C6D2961CB210086863C /* Profile */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B5887BE1295FCD190000A867 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C5729607E5E0086863C /* Models */,
+				B58A9C51296072E80086863C /* Views */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		B5898DA2296481E900D85278 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B5898DA3296481F300D85278 /* AverageColor.swift */,
+				B5D9A5862964C72D009590E8 /* Button.swift */,
+				B5D9A59A2965BDED009590E8 /* Debug.swift */,
+				B50A7C4529664ABB0027CF5F /* AsItemInfo.swift */,
+				B5E4607B2968CCD400BB42CA /* ItemInfo.swift */,
+				B580655529670A2400493F10 /* SwipeBack.swift */,
+				B580656029674CB400493F10 /* ViewReadSize.swift */,
+				B5E460812968FE4E00BB42CA /* AsAnyVideo.swift */,
+				B5E4608C2969B0EA00BB42CA /* ColorByString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B5898DAE2964A16F00D85278 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B5898DAF2964A18D00D85278 /* WhatToWatchScreen.swift */,
+				B5D9A59E2965C6DD009590E8 /* ItemDetailsScreen.swift */,
+				B54058C129677DDE00606F8B /* PlayerScreen.swift */,
+				B5AD11432968818A00315E35 /* ErrorScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B58A9C4E296069100086863C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C642960B8E60086863C /* KinopubApi */,
+				B58A9C652960B8F50086863C /* KinopubAuth */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		B58A9C51296072E80086863C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C52296072F60086863C /* DeviceCodeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B58A9C5729607E5E0086863C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C5829607E6C0086863C /* DeviceCodeViewModel.swift */,
+				B58A9C832963665B0086863C /* UserAuth.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B58A9C5A29609CAF0086863C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C5B29609CBF0086863C /* AuthenticationKeeper.swift */,
+				B58A9C7329632E340086863C /* AccessTokenRequestBuilder.swift */,
+				B58A9C7E29635E2B0086863C /* RemoteImageURL.swift */,
+				B5D9A5842964C2D6009590E8 /* Debouncer.swift */,
+				B580655C296721CF00493F10 /* SidebarAccessor.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B58A9C602960B6760086863C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B58A9C6A2961B32B0086863C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C6B2961B3380086863C /* Spinner.swift */,
+				B5D9A59829650D3B009590E8 /* LongText.swift */,
+				B580655A2967150500493F10 /* ErrorRetry.swift */,
+				B580655E29674C5500493F10 /* FlexibleRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B58A9C6D2961CB210086863C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C6E2961CB2D0086863C /* Models */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B58A9C6E2961CB2D0086863C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C6F2961CB3F0086863C /* UserViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B58A9C75296355880086863C /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C8029635F000086863C /* Mocks */,
+				B58A9C79296358250086863C /* Views */,
+				B58A9C76296355EE0086863C /* Models */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		B58A9C76296355EE0086863C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5898DAC2964A02A00D85278 /* MoviesProtocols.swift */,
+				B58A9C77296356080086863C /* PopularViewModel.swift */,
+				B5898DA829649E8900D85278 /* FreshViewModel.swift */,
+				B5898DAA29649EC800D85278 /* HotViewModel.swift */,
+				B5D9A5A02965C769009590E8 /* ItemDetailsViewModel.swift */,
+				B54058BF2967725900606F8B /* PlayerViewModel.swift */,
+				B5A6F0FE2969BB4100C03612 /* VoteViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B58A9C79296358250086863C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C7A296358390086863C /* WhatToWatchViews.swift */,
+				B58A9C7C29635CAA0086863C /* ItemView.swift */,
+				B5898DA0296473C600D85278 /* WideItemView.swift */,
+				B5D9A58A2964E536009590E8 /* FullItemView.swift */,
+				B5E4607F2968F8E700BB42CA /* VideoList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B58A9C8029635F000086863C /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C8129635F120086863C /* ItemsMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		B58A9C8929644B990086863C /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C8A29644BA20086863C /* Views */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		B58A9C8A29644BA20086863C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B58A9C8B29644BAB0086863C /* SidebarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5AD113C296863BD00315E35 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD11402968652B00315E35 /* Views */,
+				B5AD113D296863CC00315E35 /* Models */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		B5AD113D296863CC00315E35 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD113E2968641000315E35 /* AVPlayerViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5AD11402968652B00315E35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5AD11412968653900315E35 /* AVVideoPlayer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5E460832969A9E600BB42CA /* Bookmarks */ = {
+			isa = PBXGroup;
+			children = (
+				B5E460892969AF3D00BB42CA /* Views */,
+				B5E460842969AA0100BB42CA /* Models */,
+			);
+			path = Bookmarks;
+			sourceTree = "<group>";
+		};
+		B5E460842969AA0100BB42CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5E460872969AEB200BB42CA /* BookmarksProtocols.swift */,
+				B5E460852969AEA500BB42CA /* BookmarksViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5E460892969AF3D00BB42CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5E4608A2969AF4A00BB42CA /* BookmarksSidebarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B52B01B22952B7E9007048A5 /* kinopub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B52B01DD2952B7EA007048A5 /* Build configuration list for PBXNativeTarget "kinopub" */;
+			buildPhases = (
+				B52B01AF2952B7E9007048A5 /* Sources */,
+				B52B01B02952B7E9007048A5 /* Frameworks */,
+				B52B01B12952B7E9007048A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kinopub;
+			packageProductDependencies = (
+				B58A9C662960B8FF0086863C /* KinopubApi */,
+				B58A9C682960B9020086863C /* KinopubAuth */,
+				B5898DA62964862500D85278 /* Shiny */,
+				B5D9A5922964E9EA009590E8 /* Nuke */,
+				B5D9A5942964E9EA009590E8 /* NukeExtensions */,
+				B5D9A5962964E9EA009590E8 /* NukeUI */,
+				B580655829670E7400493F10 /* SwiftUIRouter */,
+			);
+			productName = kinopub;
+			productReference = B52B01B32952B7E9007048A5 /* kinopub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B52B01C82952B7EA007048A5 /* kinopubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B52B01E02952B7EA007048A5 /* Build configuration list for PBXNativeTarget "kinopubTests" */;
+			buildPhases = (
+				B52B01C52952B7EA007048A5 /* Sources */,
+				B52B01C62952B7EA007048A5 /* Frameworks */,
+				B52B01C72952B7EA007048A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B52B01CB2952B7EA007048A5 /* PBXTargetDependency */,
+			);
+			name = kinopubTests;
+			productName = kinopubTests;
+			productReference = B52B01C92952B7EA007048A5 /* kinopubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B52B01D22952B7EA007048A5 /* kinopubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B52B01E32952B7EA007048A5 /* Build configuration list for PBXNativeTarget "kinopubUITests" */;
+			buildPhases = (
+				B52B01CF2952B7EA007048A5 /* Sources */,
+				B52B01D02952B7EA007048A5 /* Frameworks */,
+				B52B01D12952B7EA007048A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B52B01D52952B7EA007048A5 /* PBXTargetDependency */,
+			);
+			name = kinopubUITests;
+			productName = kinopubUITests;
+			productReference = B52B01D32952B7EA007048A5 /* kinopubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B52B01AB2952B7E9007048A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B52B01B22952B7E9007048A5 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					B52B01C82952B7EA007048A5 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = B52B01B22952B7E9007048A5;
+					};
+					B52B01D22952B7EA007048A5 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = B52B01B22952B7E9007048A5;
+					};
+				};
+			};
+			buildConfigurationList = B52B01AE2952B7E9007048A5 /* Build configuration list for PBXProject "kinopub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B52B01AA2952B7E9007048A5;
+			packageReferences = (
+				B5898DA52964862500D85278 /* XCRemoteSwiftPackageReference "shiny" */,
+				B5D9A5912964E9EA009590E8 /* XCRemoteSwiftPackageReference "Nuke" */,
+				B580655729670E7400493F10 /* XCRemoteSwiftPackageReference "SwiftUIRouter" */,
+			);
+			productRefGroup = B52B01B42952B7E9007048A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B52B01B22952B7E9007048A5 /* kinopub */,
+				B52B01C82952B7EA007048A5 /* kinopubTests */,
+				B52B01D22952B7EA007048A5 /* kinopubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B52B01B12952B7E9007048A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B52B01BE2952B7EA007048A5 /* Preview Assets.xcassets in Resources */,
+				B52B01BB2952B7EA007048A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52B01C72952B7EA007048A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52B01D12952B7EA007048A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B52B01AF2952B7E9007048A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5898DA929649E8900D85278 /* FreshViewModel.swift in Sources */,
+				B5898DAD2964A02A00D85278 /* MoviesProtocols.swift in Sources */,
+				B580655629670A2400493F10 /* SwipeBack.swift in Sources */,
+				B52B01C32952B7EA007048A5 /* kinopub.xcdatamodeld in Sources */,
+				B58A9C8829644B000086863C /* MainView.swift in Sources */,
+				B58A9C8C29644BAB0086863C /* SidebarView.swift in Sources */,
+				B5898DA4296481F300D85278 /* AverageColor.swift in Sources */,
+				B580656129674CB400493F10 /* ViewReadSize.swift in Sources */,
+				B580655F29674C5500493F10 /* FlexibleRow.swift in Sources */,
+				B58A9C7F29635E2B0086863C /* RemoteImageURL.swift in Sources */,
+				B58A9C6C2961B3380086863C /* Spinner.swift in Sources */,
+				B5D9A5852964C2D6009590E8 /* Debouncer.swift in Sources */,
+				B58A9C5C29609CBF0086863C /* AuthenticationKeeper.swift in Sources */,
+				B5AD11422968653900315E35 /* AVVideoPlayer.swift in Sources */,
+				B5898DB02964A18D00D85278 /* WhatToWatchScreen.swift in Sources */,
+				B5E4608B2969AF4A00BB42CA /* BookmarksSidebarView.swift in Sources */,
+				B5E460882969AEB200BB42CA /* BookmarksProtocols.swift in Sources */,
+				B5D9A5872964C72D009590E8 /* Button.swift in Sources */,
+				B5E460862969AEA500BB42CA /* BookmarksViewModel.swift in Sources */,
+				B5E460822968FE4E00BB42CA /* AsAnyVideo.swift in Sources */,
+				B58A9C702961CB3F0086863C /* UserViewModel.swift in Sources */,
+				B580655D296721CF00493F10 /* SidebarAccessor.swift in Sources */,
+				B58A9C842963665B0086863C /* UserAuth.swift in Sources */,
+				B5D9A59B2965BDED009590E8 /* Debug.swift in Sources */,
+				B5D9A59F2965C6DD009590E8 /* ItemDetailsScreen.swift in Sources */,
+				B58A9C78296356080086863C /* PopularViewModel.swift in Sources */,
+				B5D9A58B2964E536009590E8 /* FullItemView.swift in Sources */,
+				B54058C229677DDE00606F8B /* PlayerScreen.swift in Sources */,
+				B5A6F0FF2969BB4100C03612 /* VoteViewModel.swift in Sources */,
+				B58A9C7429632E340086863C /* AccessTokenRequestBuilder.swift in Sources */,
+				B5E4607C2968CCD400BB42CA /* ItemInfo.swift in Sources */,
+				B5898DAB29649EC800D85278 /* HotViewModel.swift in Sources */,
+				B5D9A59929650D3B009590E8 /* LongText.swift in Sources */,
+				B50A7C4629664ABB0027CF5F /* AsItemInfo.swift in Sources */,
+				B58A9C7B296358390086863C /* WhatToWatchViews.swift in Sources */,
+				B5D9A5A12965C769009590E8 /* ItemDetailsViewModel.swift in Sources */,
+				B5AD113F2968641000315E35 /* AVPlayerViewModel.swift in Sources */,
+				B52B01B92952B7E9007048A5 /* ContentView.swift in Sources */,
+				B5E4608D2969B0EA00BB42CA /* ColorByString.swift in Sources */,
+				B5D9A59D2965C617009590E8 /* Router.swift in Sources */,
+				B52B01B72952B7E9007048A5 /* kinopubApp.swift in Sources */,
+				B5898DA1296473C600D85278 /* WideItemView.swift in Sources */,
+				B54058C02967725900606F8B /* PlayerViewModel.swift in Sources */,
+				B58A9C722962F9C80086863C /* Consts.swift in Sources */,
+				B5AD11442968818A00315E35 /* ErrorScreen.swift in Sources */,
+				B58A9C8229635F120086863C /* ItemsMock.swift in Sources */,
+				B58A9C53296072F60086863C /* DeviceCodeView.swift in Sources */,
+				B580655B2967150500493F10 /* ErrorRetry.swift in Sources */,
+				B58A9C7D29635CAA0086863C /* ItemView.swift in Sources */,
+				B58A9C5929607E6C0086863C /* DeviceCodeViewModel.swift in Sources */,
+				B5E460802968F8E700BB42CA /* VideoList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52B01C52952B7EA007048A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B52B01CE2952B7EA007048A5 /* kinopubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52B01CF2952B7EA007048A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B52B01D82952B7EA007048A5 /* kinopubUITests.swift in Sources */,
+				B52B01DA2952B7EA007048A5 /* kinopubUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B52B01CB2952B7EA007048A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B52B01B22952B7E9007048A5 /* kinopub */;
+			targetProxy = B52B01CA2952B7EA007048A5 /* PBXContainerItemProxy */;
+		};
+		B52B01D52952B7EA007048A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B52B01B22952B7E9007048A5 /* kinopub */;
+			targetProxy = B52B01D42952B7EA007048A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B52B01DB2952B7EA007048A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B52B01DC2952B7EA007048A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B52B01DE2952B7EA007048A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kinopub/kinopub.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kinopub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wielski.kinopub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B52B01DF2952B7EA007048A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kinopub/kinopub.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kinopub/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wielski.kinopub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B52B01E12952B7EA007048A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wielski.kinopubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kinopub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kinopub";
+			};
+			name = Debug;
+		};
+		B52B01E22952B7EA007048A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wielski.kinopubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kinopub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kinopub";
+			};
+			name = Release;
+		};
+		B52B01E42952B7EA007048A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wielski.kinopubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = kinopub;
+			};
+			name = Debug;
+		};
+		B52B01E52952B7EA007048A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wielski.kinopubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = kinopub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B52B01AE2952B7E9007048A5 /* Build configuration list for PBXProject "kinopub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B52B01DB2952B7EA007048A5 /* Debug */,
+				B52B01DC2952B7EA007048A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B52B01DD2952B7EA007048A5 /* Build configuration list for PBXNativeTarget "kinopub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B52B01DE2952B7EA007048A5 /* Debug */,
+				B52B01DF2952B7EA007048A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B52B01E02952B7EA007048A5 /* Build configuration list for PBXNativeTarget "kinopubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B52B01E12952B7EA007048A5 /* Debug */,
+				B52B01E22952B7EA007048A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B52B01E32952B7EA007048A5 /* Build configuration list for PBXNativeTarget "kinopubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B52B01E42952B7EA007048A5 /* Debug */,
+				B52B01E52952B7EA007048A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B580655729670E7400493F10 /* XCRemoteSwiftPackageReference "SwiftUIRouter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/frzi/SwiftUIRouter.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B5898DA52964862500D85278 /* XCRemoteSwiftPackageReference "shiny" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maustinstar/shiny";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		B5D9A5912964E9EA009590E8 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B580655829670E7400493F10 /* SwiftUIRouter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B580655729670E7400493F10 /* XCRemoteSwiftPackageReference "SwiftUIRouter" */;
+			productName = SwiftUIRouter;
+		};
+		B5898DA62964862500D85278 /* Shiny */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5898DA52964862500D85278 /* XCRemoteSwiftPackageReference "shiny" */;
+			productName = Shiny;
+		};
+		B58A9C662960B8FF0086863C /* KinopubApi */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KinopubApi;
+		};
+		B58A9C682960B9020086863C /* KinopubAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KinopubAuth;
+		};
+		B5D9A5922964E9EA009590E8 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5D9A5912964E9EA009590E8 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		B5D9A5942964E9EA009590E8 /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5D9A5912964E9EA009590E8 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		B5D9A5962964E9EA009590E8 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5D9A5912964E9EA009590E8 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		B52B01C12952B7EA007048A5 /* kinopub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B52B01C22952B7EA007048A5 /* kinopub.xcdatamodel */,
+			);
+			currentVersion = B52B01C22952B7EA007048A5 /* kinopub.xcdatamodel */;
+			path = kinopub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B52B01AB2952B7E9007048A5 /* Project object */;
+}
